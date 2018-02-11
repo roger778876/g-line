@@ -17,6 +17,14 @@ def octant(x0, y0, x1, y1):
     return 7
 
 def draw_line(x0, y0, x1, y1, screen, color):
+  if (x0 > x1): # drawing from right to left -> switch points
+    xstor = x0
+    ystor = y0
+    x0 = x1
+    y0 = y1
+    x1 = xstor
+    y1 = ystor
+
   A = y1 - y0
   B = -1 * (x1 - x0)
   x = x0
