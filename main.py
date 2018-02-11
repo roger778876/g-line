@@ -8,6 +8,8 @@ color = [ 0, 255, 0 ]
 draw_line(0, 250, 500, 250, screen, color)
 draw_line(250, 0, 250, 500, screen, color)
 
+draw_line(0, 500, 300, 0, screen, color)
+
 
 display(screen)
 save_extension(screen, 'img.png')
