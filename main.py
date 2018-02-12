@@ -11,14 +11,13 @@ blue = [0, 191, 255]
 draw_line(0, 250, 500, 250, screen, blue)
 draw_line(250, 0, 250, 500, screen, blue)
 
-''' demonstrate octants
+# demonstrate octants
 draw_line(0, 0, 200, 500, screen, green)
 draw_line(0, 0, 500, 200, screen, green)
 draw_line(0, 0, 500, 500, screen, green)
 draw_line(0, 500, 500, 0, screen, green)
 draw_line(0, 500, 300, 0, screen, green)
 draw_line(0, 500, 500, 200, screen, green)
-'''
 
 ''' generate cool pic
 for x in range(0, 251):
